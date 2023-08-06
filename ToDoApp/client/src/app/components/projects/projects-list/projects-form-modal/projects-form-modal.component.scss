@@ -1,0 +1,30 @@
+// h4 {
+//   position: sticky;
+//   width: 90%;
+//   text-align: left;
+//   line-height: 0.1em;
+//   margin: 10px 0 20px;
+// }
+
+// h4:after {
+//   z-index: -1;
+//   position: absolute;
+//   /* Change "right: 0" to "left: 0" for left side line */
+//   right: 0;
+//   content: '';
+//   width: 90%;
+//   border-bottom: 1px solid #000;
+// }
+
+// h4 span {
+//   background: #fff;
+//   padding: 0 10px;
+// }
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}

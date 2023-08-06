@@ -1,0 +1,19 @@
+<div class="list-group list-group-flush h-2" *ngFor="let item of todayTasks;let i = index">
+    <li class="list-group-item mt-2" [ngClass]="{'list-group-item-danger':item.label == 0,
+                                                'list-group-item-warning': item.label == 1, 
+                                                'list-group-item-primary':item.label == 2}" style="line-height: 20px;">
+        {{item.name}}
+        <a class="float-right ml-2" (click)="removeTask(i)" style="cursor: pointer;">
+            <i class="bi bi-trash-fill fs-3" style="color:rgb(194, 40, 2)"></i>
+        </a>
+        <a class="float-right ml-2" (click)="displayCommentsComponent(i)" style="cursor: pointer;">
+            <i class="bi bi-chat-square-text fs-3"></i>
+        </a>
+        <a class="float-right ml-2" (click)="enableEditTask(item, i)" style="cursor: pointer;">
+            <i class="bi bi-pencil fs-3" style="color:rgb(48, 12, 179)"></i>
+        </a>
+    </li>
+    <app-today-task-comments-list (closeTaskCommentSection)="displayCommentsComponent(i)" id="{{'tasksComment' + i}}"
+        *ngIf="showCommentComponent[i]" [taskComments]="{tasks: todayTasks, taskIndex: i}">
+    </app-today-task-comments-list>
+</div>

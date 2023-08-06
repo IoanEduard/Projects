@@ -1,0 +1,51 @@
+[
+    {
+        "Name": "Neptune Seedless Grape Vine",
+        "Description": "Neptune Grape Vine bears some of the largest white, seedless grapes available. The large, conical clusters of beautiful yellow-green fruits look stunning in fruit baskets, bowls and centerpieces. They're flavorful, too. With high sugar levels and a bold, fruity flavor, the large grapes are wonderful for snacking and fruit salads. Neptune Grape is also a fine choice for making into jellies, juice or wine. The vigorous vines are disease-resistant, and the fruits resist cracking. Ripens in early September. Self-pollinating. Zones 5-8.",
+        "Price": 19.99,
+        "PictureUrl": "https://h2.commercev3.net/cdn.gurneys.com/images/500/02183A.jpg",
+        "IsInStock": false,
+        "ProductCategoryId": 2
+    },
+    {
+        "Name": "Pink Reliance Seedless Grape Vine",
+        "Description": "A trouble-free table grape for home gardeners! Reliably produces rosy, sugary sweet seedless grapes that are big and plump with tender skin, melting texture and a mild fruity flavor. Pink Reliance is an extremely hardy and disease-resistant grape that doesn't require a lot of spraying like other varieties do. The vines are cold hardy and can even withstand sub-zero temperatures. The grapes ripen in late August, producing 40-50 clusters of grapes per vine. Pink Reliance isn't a slip skin variety. It has excellent vigor and is highly resistant to common grape diseases, including mildews and anthracnose. Grows best in full sun and acidic soil. Zones 4-8.",
+        "Price": 14.99,
+        "PictureUrl": "https://h2.commercev3.net/cdn.gurneys.com/images/500/08499A.jpg",
+        "IsInStock": false,
+        "ProductCategoryId": 2
+    },
+    {
+        "Name": "Black Fry Grape",
+        "Description": "This is slightly smaller than Supreme (but still larger than most) with excellent flavor and high-quality fruit on vigorous vines. All-female flowers require pollinator. In many areas, native Muscadines will pollinate Black Fry, but use Tara if you need a pollinator variety. Zones 7–10.",
+        "Price": 19.99,
+        "PictureUrl": "https://h2.commercev3.net/cdn.gurneys.com/images/500/90044A.jpg",
+        "IsInStock": false,
+        "ProductCategoryId": 2
+    },
+    {
+        "Name": "Everest Seedless™ Grape Vine",
+        "Description": "Big fruits, big clusters and big flavor—it 's no wonder this new introduction from Cornell University is named after the biggest mountain in the world. Everest bears large clusters of large, seedless juicy berries with a flavor similar to the famed Concord grape. Unlike the Concord grape though, Everest 's fruits are seedless and much larger—sometimes twice the size of Concords. Everest Grape 's large and productive vines produce up to 33 lbs. of fruit and exhibit moderate resistance to downy and powdery mildew. Fruits ripen in mid- to late-September. A good choice for home gardeners and pick-your-own operations. Zones 5-10.",
+        "Price": 39.99,
+        "PictureUrl": "https://h2.commercev3.net/cdn.gurneys.com/images/500/61626A.jpg",
+        "IsInStock": false,
+        "ProductCategoryId": 2
+    },
+
+    {
+        "Name": "Covington Sweet Potato",
+        "Description": "From North Carolina State, it's rapidly replacing Beauregard in commercial plantings. Not because of flavor, both are sweet with great flavor. And it isn't because of yield, they are both very good yielders. In truth, there are three key differences: 1) Storage time is much longer than Beauregard (which can begin to deteriorate beginning in January). 2) Covington roots are very uniform in shape and not prone to produce misshapen or long, narrow roots. (Georgia Jet is especially prone to misshapen roots and football-sized lunkers that are hard to bake or process.) 3) Covington is resistant to Russet crack and Southern root-knot nematode, either of which can make growing sweet potatoes very discouraging! Great for boiling, roasting, or mashing. 100–115 DAYS.",
+        "Price": 21.99,
+        "PictureUrl": "https://h2.commercev3.net/cdn.gurneys.com/images/500/86908A.jpg",
+        "IsInStock": false,
+        "ProductCategoryId": 1
+    },
+    {
+        "Name": "Early Contender Bush Bean Seed",
+        "Description": "A great bush bean for gardeners in northern climates or those who just can't wait for the start of fresh green bean season. Early Contender starts producing nearly a week ahead of most bean varieties. Bears plenty of 6- to 8-in. stringless pods that cook up tender and with a good green bean flavor. Freezes and cans with no loss of quality. Because it requires such a short season, Early Contender is also a good choice for the fall garden. Exhibits good disease and heat tolerance. Bush plants have an upright form and require no staking. Performs best when planted in full sun and in well-drained soil. 49 DAYS.",
+        "Price": 2.99,
+        "PictureUrl": "https://h2.commercev3.net/cdn.gurneys.com/images/500/14155A.jpg",
+        "IsInStock": false,
+        "ProductCategoryId": 1
+    }
+]

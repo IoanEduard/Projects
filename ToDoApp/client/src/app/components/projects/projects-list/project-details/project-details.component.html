@@ -1,0 +1,14 @@
+<p>{{project.name}}</p>
+<p>{{project.description}}</p>
+<p>{{project.completed}}</p>
+
+<p>Tasks of this project</p>
+<div *ngFor="let task of project.tasks">
+    <p>{{task.name}}</p>
+    <p>{{task.dateToComplete}}</p>
+    <div *ngFor="let comment of task.comments">
+        <p>{{comment.commentText}}</p>
+    </div>
+</div>
+
+<p>Team (display different colors around their image for their policies)</p>

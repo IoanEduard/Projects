@@ -1,0 +1,67 @@
+<div class="container mt-5">
+    <div class="row">
+        <section class="col-3">
+            <ng-container *ngIf="productCategories">
+                <h5 class="text-warning ml-3">Sort</h5>
+                <select class="form-select mb-3" (change)="onSortSelected($event)">
+                    <option *ngFor="let sort of sortOptions" [value]="sort.value">
+                        {{sort.name}}
+                    </option>
+                </select>
+
+                <h5 class="text-warning ml-3">
+                    Product Type
+                </h5>
+                <ul class="list-group my-2">
+                    <li class="list-group-item" *ngFor="let productCategory of productCategories"
+                        [class.active]="productCategory.id === shopParams.categoryId" [value]="productCategory.id"
+                        (click)="onCategorySelected(productCategory.id)">
+                        {{productCategory.name}}
+                    </li>
+                </ul>
+                <h5 class="text-warning ml-3">
+                    In Stock
+                </h5>
+                <ul class="list-group my-2">
+                    <li class="list-group-item active">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                </ul>
+                <h5 class="text-warning ml-3">
+                    Grape Color
+                </h5>
+                <ul class="list-group my-2">
+                    <li class="list-group-item active">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </ng-container>
+        </section>
+        <section class="col-9">
+            <div class="d-flex justify-content-between align-items-center pb-2">
+                <app-paging-header [totalCount]="totalCount" [pageSize]="this.shopParams.pageSize"
+                    [pageNumber]="this.shopParams.pageNumber"></app-paging-header>
+                <div class="form-inline mt-2" *ngIf="products">
+                    <div class="input-group mb-2">
+                        <input (keyup)="onSearch()" #search class="form-control mx-2" type="text" style="width:300px"
+                            placeholder="Search">
+                        <button (click)="onSearch()" class="btn btn-outline-primary mx-2">Search</button>
+                        <button (click)="onReset()" class="btn btn-outline-success mx-2">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4" *ngFor="let product of products">
+                    <app-product-item [product]="product"></app-product-item>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-3" *ngIf="totalCount > 0">
+                <app-pager [pageSize]="shopParams.pageSize" [totalCount]="totalCount"
+                    (pageChanged)="onPageChanged($event)">
+                </app-pager>
+            </div>
+        </section>
+    </div>
+</div>

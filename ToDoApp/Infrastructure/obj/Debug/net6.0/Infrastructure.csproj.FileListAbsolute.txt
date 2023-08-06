@@ -1,0 +1,102 @@
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\ref\Infrastructure.dll
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.dll
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.pdb
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+F:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+F:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+E:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+E:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+E:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+E:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+E:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.dll
+E:\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.pdb
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+E:\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.dll
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\bin\Debug\net6.0\Core.pdb
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+D:\Important\Projects\Projects\ToDoApp\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

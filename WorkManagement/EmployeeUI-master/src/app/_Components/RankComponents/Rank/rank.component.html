@@ -1,0 +1,73 @@
+<!-- ADD NEW RANK -->
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color:#343a40; color: white;">
+        <h4 class="modal-title blue" id="modal-basic-title">Add New Rank</h4>
+        <button type="button" class="close" aria-label="Close" style="color:white" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div *ngIf="rankForm" (ngSubmit)="saveRank()" class="py-3" >
+            <input type="text" id="modalInput" class="form-control" placeholder="Rank name" [(ngModel)]="newRank.Name">
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <button id="btnModal" type="button" class="btn btn-outline-dark" (click)="saveRank(newRank)">Save</button>
+            </div>
+            <div class="col-md-6 text-center">
+            <button id="btnModal" type="button" class="btn btn-outline-dark" (click)="modal.close()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+<h3 class="p-4" style="color:white; text-align: center;">All Ranks</h3>
+
+<!-- LIST OF RANKS -->
+<section id="posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="py-2">
+            <button class="btn btn-lg btn-outline-warning" (click)="openAddRank(content)">Add new rank</button>
+        </div>
+          <div class="card">
+            <div class="card-header">
+              <h4>Ranks</h4>
+            </div>
+            <table class="table">
+              <thead class="thead-inverse">
+                <tr>
+                  <th 
+                        [class.active]="order === 'Name'"
+                        (click)="setOrder('Name')"
+                        class="mdl-data-table__cell--non-numeric"> 
+                        <a style="margin-left: 20px;">
+                            Name 
+                        </a>
+                    <span [hidden]="reverse">▼</span>
+                    <span [hidden]="!reverse">▲</span>
+                </th>
+                  <th>
+                      <a style="margin-left: 420px;">Actions</a>
+                    </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let rank of ranks | orderBy: order:reverse:'case-insensitive'">
+                  <td><a style="text-align:center;margin-left:20px"> {{rank.Name}} </a></td>
+                  <td>
+                    <button class="btn btn-info" style="width:120px;margin-left: 420px;" name="edit" title="Edit" (click)="openEditRank(rank, content)">Edit</button>
+                    <button class="btn btn-danger" style="width:120px;margin-left: 20px;" name="delete" title="Delete" (click)="delete(rank)">Delete</button>
+                  </td>
+                </tr>              
+              </tbody>
+            </table>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </section>
+
+
+

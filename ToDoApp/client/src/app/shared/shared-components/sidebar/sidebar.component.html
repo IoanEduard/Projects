@@ -1,0 +1,74 @@
+<div class="container-fluid sidebarBackgroundColor">
+    <div class="row">
+        <div class="col-sm-auto sticky-top" class="left-stuff" [@widthGrow]="state">
+            <div class="text-center">
+                <i (click)="minimize()" class="bi-arrow-left fs-4 main-text-color" *ngIf="!minimized"></i>
+                <i (click)="minimize()" class="bi-arrow-right fs-4 main-text-color" *ngIf="minimized"></i>
+            </div>
+            <div class="d-flex flex-sm-column flex-row flex-nowrap align-items-center sticky-top">
+                <ul
+                    class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap text-left align-items-right sidebarListBackgroundColor">
+                    <!-- <li class="nav-item">
+                        <a [routerLink]="['/activity-feed']" class="nav-link py-3 px-2" title=""
+                            data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                            <i routerLinkActive="router-link-active" class="bi-newspaper fs-4 main-text-color"> <span
+                                    class="sidebarIconText" *ngIf="!minimized">
+                                    Activity Feed
+                                </span> </i>
+                        </a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a [routerLink]="['/tasks/today-tasks']" class="nav-link py-3 px-2" title=""
+                            data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                            <i routerLinkActive="router-link-active" class="bi-sunrise fs-4 main-text-color"> <span
+                                    class="sidebarIconText" *ngIf="!minimized">
+                                    Today
+                                </span> </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/tasks/upcoming-tasks']" class="nav-link py-3 px-2" title=""
+                            data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <i routerLinkActive="router-link-active" class="bi-hourglass fs-4 main-text-color"><span
+                                    class="sidebarIconText" *ngIf="!minimized">
+                                    Upcoming</span></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/projects/list']" class="nav-link py-3 px-2" title=""
+                            data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+                            <i routerLinkActive="router-link-active"
+                                class="bi-clipboard-data fs-4 main-text-color"><span class="sidebarIconText"
+                                    *ngIf="!minimized">
+                                    Projects</span></i>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a [routerLink]="['/activity']" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Orders">
+                            <i routerLinkActive="router-link-active" class="bi-hammer fs-4 main-text-color"> <span
+                                    class="sidebarIconText" *ngIf="!minimized">
+                                    Productivity </span></i>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a [routerLink]="['/login']" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Products">
+                            <i routerLinkActive="router-link-active" class="bi-person-circle fs-4 main-text-color">
+                                <span class="sidebarIconText main-text-color" *ngIf="!minimized">
+                                    <span *ngIf="isLoggedIn"> Welcome {{authService.decodedToken?.name}}</span>
+                                    <span *ngIf="!isLoggedIn"> Log In</span>
+                                </span>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col-sm p-3 min-vh-100 components-background">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

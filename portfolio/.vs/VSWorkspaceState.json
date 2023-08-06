@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\articles",
+    "\\src\\app\\articles\\blog-posts",
+    "\\src\\app\\articles\\blog-posts\\blog-posts.list",
+    "\\src\\app\\articles\\blog-posts\\blog-posts.list\\blog-post-content",
+    "\\src\\app\\articles\\blog-posts\\tags",
+    "\\src\\app\\articles\\blog-posts\\tags\\search-tags",
+    "\\src\\app\\articles\\projects"
+  ],
+  "PreviewInSolutionExplorer": false
+}

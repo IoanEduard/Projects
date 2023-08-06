@@ -1,0 +1,60 @@
+<div class="d-flex justify-content-center mt-5">
+    <div class="col-2">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="text-center mb-4">
+                <img class="mb-2" src="../../assets/logo.png" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+                <div class="form-label-group">
+                    <label for="inputDisplayName" class="sr-only">Display Name</label>
+                    <input formControlName="displayName" type="text" id="inputDisplayName" class="form-control my-2" autocomplete="off"
+                        placeholder="Display Name">
+                    <span class="text-danger" *ngIf="displayName?.invalid
+                && displayName?.touched
+                && displayName?.errors!['required']">Display Name is required</span>
+                    <span class="text-danger" *ngIf="displayName?.invalid
+                && displayName?.touched
+                && displayName?.errors!['minlength']">Display Name is minimum length is 3</span>
+                </div>
+
+                <div class="form-label-group">
+                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <input formControlName="email" type="email" id="inputEmail" class="form-control my-2" autocomplete="off"
+                        placeholder="Email address">
+                    <div *ngIf="email?.status === 'PENDING'" class="fa fa-spinner fa-spin loader">
+                    </div>
+
+                    <span class="text-danger" *ngIf="email?.invalid
+                && email?.touched
+                && email?.errors!['required']">Email address is required</span>
+                    <span class="text-danger" *ngIf="email?.invalid
+                && email?.touched
+                && email?.errors!['pattern']">Email address is not valid</span>
+                </div>
+
+                <div class="invalid-feedback d-block" *ngIf="!email?.valid && email?.dirty">
+                    <span class="text-danger" *ngIf="email?.invalid
+                    && email?.touched
+                    && email?.errors!['emailExists']">Email already exists</span>
+                </div>
+
+                <div class="form-label-group">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input formControlName="password" type="password" id="inputPassword" class="form-control my-2" autocomplete="off"
+                        placeholder="Password">
+                    <span class="text-danger" *ngIf="password?.invalid
+                && password?.touched
+                && password?.errors!['required']">Password is required</span>
+                </div>
+
+                <ul class="text-danger list-unstyled" *ngIf="errors">
+                    <li *ngFor="let error of errors">
+                        {{error}}
+                    </li>
+                </ul>
+
+                <button [disabled]="!registerForm.valid" class="btn btn-lg btn-primary btn-block mt-4"
+                    type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<section id="HeaderEmpPage" class="py-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class="text-primary pb-3">
+              <h1 class="text-light pb-3">Manage your employees</h1>
+          </h1>
+          <p class="lead pb-3 text-white">
+            Here you can manange Employees and their ranks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ControlPanel" class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+          <a 
+            id="btnGeneric" 
+            class="btn btn-lg btn-outline-light" 
+            role="button"
+            (click)="CloseRankOutlet()"
+          >Employee</a>
+      </div>
+      <div class="col-md-6 text-center">
+          <a id="btnGeneric"class="btn btn-lg btn-outline-light" role="button" (click)="CloseEmpOutlet()">Rank</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div [hidden]="!showEmp">
+  <router-outlet name="emp"></router-outlet>
+</div>
+<div [hidden]="!showRank">
+  <router-outlet name="rank"></router-outlet>
+</div>

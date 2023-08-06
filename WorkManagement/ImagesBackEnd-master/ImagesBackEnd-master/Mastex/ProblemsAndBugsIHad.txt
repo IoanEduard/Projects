@@ -1,0 +1,12 @@
+﻿Bugs:
+one-to-many inserting duplicates - FIXED
+datetime post employee (typescript date not compatible with c# datetime) - FIXED
+add new rank not refresing list - FIXED
+
+Problems:
+CORS in employee controller for some reason on POST - Fixed (bad error, just check http response and postman response if cors enabled) - FIXED?
+get Rank from RankId not working - FIXED
+vs code keep opening new files to save and corrupting code files with code on top of another code.
+
+refresh modal
+not getting right user days

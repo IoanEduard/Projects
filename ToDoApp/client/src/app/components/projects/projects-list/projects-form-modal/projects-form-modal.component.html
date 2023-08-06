@@ -1,0 +1,154 @@
+<div class="contaienr">
+
+
+    <div class="row" class="modal-header">
+        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+            <span aria-hidden="true" class="visually-hidden">&times;</span>
+        </button>
+    </div>
+    <div class="row justify-content-md-center">
+        <form class="col-sm-8 " [formGroup]="projectForm" (ngSubmit)="onSubmit()">
+            <h4><span>Project Information</span></h4>
+            <input type="text" id="projectName" formControlName="name" class="form-control" placeholder="Project name">
+            <span style="color:red" *ngIf="projectName?.errors?.['required'] && projectName?.touched">
+                Project name is required
+            </span>
+            <span style="color:red" *ngIf="projectName?.errors?.['minlength'] && projectName?.touched">
+                Minimum length is 3
+            </span>
+
+            <textarea type="text" id="projectDescription" formControlName="description" class="form-control"
+                placeholder="Description"></textarea>
+            <span style="color:red" *ngIf="projectDescription?.errors?.['required'] && projectDescription?.touched">
+                Description is required
+            </span>
+            <span style="color:red" *ngIf="projectDescription?.errors?.['minlength'] && projectDescription?.touched">
+                Minimum length is 3
+            </span>
+
+            <h4><span>Tasks Actions</span></h4>
+            <div class="input-group">
+                <input [(ngModel)]="searchTask" [ngModelOptions]="{standalone: true}" typeaheadOptionField="name"
+                    [typeahead]="suggestionsTasks$" [typeaheadAsync]="true" [adaptivePosition]="true"
+                    [typeaheadWaitMs]="1000" [typeaheadScrollable]="true" (typeaheadOnSelect)="onSelectTask($event)"
+                    class="form-control" placeholder="Assign task to project">
+                <div class="alert alert-danger" role="alert" *ngIf="errorMessageTasks">
+                    {{ errorMessageTasks }}
+                </div>
+
+                <input [(ngModel)]="searchText" [ngModelOptions]="{standalone: true}" placeholder="Filter task by name"
+                    class="form-control" />
+
+
+            </div>
+            <div class="input-group">
+                <div class="form-check">
+                    <input #checkAll class="form-check-input" id="flexCheckDefault" type="checkbox"
+                        (change)="selectAll()">
+                    <label class="form-check-label" for="flexCheckDefault">Select All</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                        (change)="displayInactiveTasksEvent()" />
+                    <label class="form-check-label" for="flexCheckDefault">Display Inactive Tasks</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <button type="button" class="btn btn-outline-primary" (click)="removeMultipleTasksFromProject()">Move
+                    selected to trash</button>
+                <button type="button" class="btn btn-outline-primary" (click)="makeMultipleTasksInactive()">Make
+                    selected
+                    inactive</button>
+            </div>
+            <br>
+
+            <h4><span>Tasks</span></h4>
+            <div formArrayName="tasks">
+                <div *ngFor="let task of projectTasks.controls | filter:searchText; let i=index;" [formGroupName]="i">
+                    <div>
+                        <div class="form-check">
+                            <input formControlName="isSelected" class="form-check-input"
+                                (change)="onChange(task.get('id')?.value, $event, i)"
+                                name="{{ task.get('name')?.value }}" type="checkbox" id="{{task.get('name')?.value}}">
+                            <label class="form-check-label" for="flexCheckDefault">Select Task</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="taskName">Name</label>
+                            <input id="taskName" formControlName="name" class="form-control"
+                                placeholder="Enter a task name">
+                            <span style="color:red"
+                                *ngIf="projectTasks.controls[i]?.get('taskName')?.errors?.['required'] && projectTasks.controls[i]?.get('taskName')?.touched">
+                                Task name is required
+                            </span>
+                            <span style="color:red"
+                                *ngIf="projectTasks.controls[i]?.get('taskName')?.errors?.['minlength'] && projectTasks.controls[i]?.get('taskName')?.touched">
+                                Minimum length is 3
+                            </span>
+                        </div>
+                        <div>
+                            <label class="my-1 mr-2" for="taskPriority">Priority</label>
+                            <select id="taskPriority" class="custom-select my-1 mr-sm-2" formControlName="label">
+                                <option value='' disabled selected>Priority</option>
+                                <option *ngFor="let name of keys" [value]="name"> {{priorityEnum[name]}} </option>
+                            </select>
+                            <span style="color:red"
+                                *ngIf="projectTasks.controls[i]?.get('label')?.errors?.['required'] && projectTasks.controls[i]?.get('label')?.touched">
+                                Label is required
+                            </span>
+                        </div>
+
+                        <div class="row form-group">
+                            <label>Select Date</label>
+                            <div class="col-xs-12 col-12 col-md-4 form-group mb-3">
+                                <input formControlName="dateToComplete" type="text" placeholder="Datepicker"
+                                    class="form-control" bsDatepicker
+                                    [value]="projectTasks.controls[i]?.get('dateToComplete')?.value | date: 'yyyy-MM-dd'"
+                                    [bsConfig]="{ isAnimated: true, dateInputFormat: 'YYYY-MM-DD', adaptivePosition: true }"
+                                    (ngModelChange)="selectDate(task.value?.dateToComplete)" [minDate]="minDate"
+                                    [readonly]=true>
+                            </div>
+                            <span style="color:red"
+                                *ngIf="projectTasks.controls[i]?.get('dateToComplete')?.errors?.['required'] && projectTasks.controls[i]?.get('dateToComplete')?.touched">
+                                Date is required
+                            </span>
+                        </div>
+                        <span style="color:red" *ngIf="backendErrorMessageDateToComplete">
+                            {{backendErrorMessageDateToComplete}}
+                        </span>
+                        <input [(ngModel)]="search" [ngModelOptions]="{standalone: true}" typeaheadOptionField="name"
+                            [typeahead]="suggestions$" [typeaheadAsync]="true" [adaptivePosition]="true"
+                            [typeaheadWaitMs]="1000" [typeaheadScrollable]="true"
+                            (typeaheadOnSelect)="onSelectUser($event, task.get('id')?.value)" class="form-control"
+                            placeholder="Assign user to project">
+                        <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+                            {{ errorMessage }}
+                        </div>
+                        <!-- <button type="button" class="btn btn-danger" (click)="deleteTask(i)">Delete
+                            task</button> -->
+                        <button type="button" class="btn btn-danger"
+                            (click)="removeTaskFromProject(task.get('id')?.value, i)">Remove
+                            from
+                            project</button>
+                    </div>
+                    <hr class="mt-2 mb-3" />
+                </div>
+            </div>
+<div class="mb-2">
+    <button type="button" class="btn btn-primary mr-2" (click)="addTask()">Add task</button>
+    <button type="submit" *ngIf="editMode" class="btn btn-primary">Save project</button>
+</div>
+            
+
+            <button class="btn btn-outline-primary mr-2" *ngIf="!editMode" type="submit"
+                [disabled]="!projectForm.valid">Add
+                New
+                Project</button>
+        </form>
+    </div>
+    <app-inactive-tasks-list [projectId]="projectIdToEdit" *ngIf="displayInactiveTasks">
+
+    </app-inactive-tasks-list>
+</div>

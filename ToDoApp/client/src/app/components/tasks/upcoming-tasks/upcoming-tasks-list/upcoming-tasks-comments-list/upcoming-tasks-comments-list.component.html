@@ -1,0 +1,38 @@
+<div class="row mt-2">
+    <ul class="list-group pull-right h-10" *ngFor="let item of taskComments.tasks.comments;let i = index">
+        <li style="line-height: 30px;align-self: flex-end;"
+            class="col-sm-10 list-group-item mb-2 alert alert-dismissible alert-light">{{item.commentText}}
+            <a class="float-right ml-2" (click)="removeCommentFromTask(i)" style="cursor: pointer;">
+                <i class="bi bi-trash-fill fs-3" style="color:rgb(194, 40, 2)"></i>
+
+            </a>
+            <a class="float-right ml-2" (click)="enableEditComment(i)" style="cursor: pointer;">
+                <i class="bi bi-pencil fs-3" style="color:rgb(48, 12, 179)"></i>
+            </a>
+        </li>
+    </ul>
+    <form [formGroup]="commentForm" (ngSubmit)="onSubmit()">
+        <div class="input-group mb-3">
+            <input type="text" id="commentText" formControlName="commentText" class="form-control"
+                placeholder="Write a comment">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary" *ngIf="!editMode" type="submit"
+                    [disabled]="commentText?.errors">Add Comment</button>
+                <button class="btn btn-outline-primary" *ngIf="!editMode" type="button"
+                    (click)="cancelAddComment()">Cancel</button>
+                <button class="btn btn-outline-primary" *ngIf="editMode" type="submit"
+                    [disabled]="commentText?.errors">Edit
+                    Comment</button>
+                <button class="btn btn-outline-primary" *ngIf="editMode" type="button"
+                    (click)="cancelEditMode()">Cancel</button>
+            </div>
+        </div>
+        <span style="color:red" *ngIf="commentText?.errors?.['required'] && commentText?.touched">
+            Comment text required
+        </span>
+        <span style="color:red" *ngIf="commentText?.errors?.['minlength'] && commentText?.touched">
+            Comment minimum length is: {{commentText?.errors?.['minlength'].requiredLength}}
+        </span>
+    </form>
+    <span style="border-bottom: 1px dotted cornflowerblue;"></span>
+</div>

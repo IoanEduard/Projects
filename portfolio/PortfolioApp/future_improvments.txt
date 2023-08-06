@@ -1,0 +1,34 @@
+No critical tasks for deployment.
+     - do this after doing the demos and study what is scheduled.
+
+Quill editor improvs:
+-custom fonts
+-copy paste scrolls up and its annoying on long articles
+-code snippet directly into text without using the button
+-mouse at the start of the row is invisible
+-no padding inside so text starts in the margin
+
+Refactorization:
+Blog-post-form - replace magic numbers with a struct or dictionary for the steps when fullfing the form.
+Study animations then add some animations on the buttons, page changes, or the steps on posting a blog form activated by *ngIf
+Schedule date and time for posting a project
+
+App Ideas:
+Chat App the right way, not like message board in this project
+Firebase email function when I get premium
+Role based oauth social media app
+Real-time searching, filtering with angular/algolia and other options, side project.
+
+Material-UI deep dive:
+Left side      |        Center         |       Functionalities used list
+Project name   | Some demo(forms,      |       Highlight what was used 
+                    badges etc)
+--Some name()--|
+
+Make a custom theme with Material-UI
+Write article step by step on installation, includes and everything so its clear.
+
+Rewind SQL.
+Rewind C# basic to advanced. Basics, OOP.
+Rewind EF LINQ and Relational Databases. Code first, Database first. Then do the apps with Web API.
+Study how to do in firebase relational tables.

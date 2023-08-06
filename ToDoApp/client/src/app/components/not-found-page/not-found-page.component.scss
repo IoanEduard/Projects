@@ -1,0 +1,28 @@
+.loading {
+  font-weight: bold;
+  display:inline-block;
+  font-family: monospace;
+  font-size: 4em;
+  clip-path: inset(0 3ch 0 0);
+  animation: l 1.2s steps(4) infinite;
+  margin-top:25%;
+}
+
+@keyframes l {
+  to {
+    clip-path: inset(0 -1ch 0 0)
+  }
+}
+
+.not-found{
+  font-weight: bold;
+  display:inline-block;
+  font-family: monospace;
+  font-size: 2em;
+  margin-top:25%;
+
+}
+
+p {
+  white-space: pre;
+}

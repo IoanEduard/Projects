@@ -1,0 +1,34 @@
+<h3>Projects</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-outline-primary mr-2" type="submit" (click)="openAddProjectModal()">Add New
+                Project</button>
+        </div>
+    </div>
+    <div class="row mt-2 mb-2">
+        <div class="col-md-12">
+            <label for="searchProject">Search Project</label>
+            <input id="searchProject" [(ngModel)]="search" typeaheadOptionField="name" [typeahead]="suggestions$"
+                [typeaheadAsync]="true" [adaptivePosition]="true" [typeaheadWaitMs]="1000" [typeaheadScrollable]="true"
+                (typeaheadOnSelect)="onSelect($event)" class="form-control" placeholder="Enter name">
+            <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+                {{ errorMessage }}
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2 mb-2">
+        <label>All Projects</label>
+        <div class="col-md-12">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- <app-projects-list></app-projects-list> -->
+<!-- <app-project-details></app-project-details> -->

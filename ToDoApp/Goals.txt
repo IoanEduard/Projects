@@ -1,0 +1,4 @@
+Upcoming tasks:
+If not logged in - show empty list
+If logged in and not admin - show tasks of that user
+If logged in as admin - show all tasks and users assigned to them as tags

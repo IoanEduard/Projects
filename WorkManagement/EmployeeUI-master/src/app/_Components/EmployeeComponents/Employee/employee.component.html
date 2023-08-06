@@ -1,0 +1,235 @@
+<!-- ADD NEW RANK -->
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color:#343a40; color: white;">
+        <h4 class="modal-title blue" id="modal-basic-title">Add New Employee</h4>
+        <button type="button" class="close" aria-label="Close" style="color:white" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div (ngSubmit)="saveEmployee()" class="py-3" >
+            <div class="py-1">
+                <input type="text" id="modalInputAddEmployee" class="form-control" placeholder="First Name" [(ngModel)]="newEmployee.FirstName" required #fName="ngModel" />
+                <div *ngIf="fName.invalid" style="color:red;"> First name required. </div> 
+            </div>
+            <div class="py-1">
+                <input type="text" id="modalInputAddEmployee" class="form-control py-1" placeholder="Last Name" [(ngModel)]="newEmployee.LastName" required #lName="ngModel" />
+                <div *ngIf="lName.invalid" style="color:red;"> Last name required. </div> 
+            </div>
+            <div class="py-1">
+                <form class="form-inline">
+                    <div class="form-group" style="width:100%;">
+                        <div class="input-group" style="width:100%;">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary calendar px-20" (click)="d.toggle()" type="button">Calendar</button>
+                            </div>
+                            <input class="form-control" 
+                                [startDate]="{year: 1992, month: 11}" 
+                                dateFormat="dd/MMM/yyyy"
+                                placeholder="Birth (yyyy-mm-dd)"
+                                name="dp" 
+                                [(ngModel)]="newEmployee.MyDate" 
+                                ngbDatepicker 
+                                #d="ngbDatepicker"
+                                required #date="ngModel" />
+                            </div>
+                            <div *ngIf="date.invalid" style="color:red;"> Birth date required. </div> 
+                    </div>
+                </form>
+            </div>
+            <div class="py-1">
+                <form class="form-inline">
+                    <div class="form-group" style="margin: 0 auto;">
+                        <div class="list-group-item" *ngFor="let item of genders" style="width:160px; margin-left:20px;">
+                            <input type="radio" [(ngModel)]="newEmployee.Gender" name="list_name" value="{{item}}"/> 
+                            {{item}}
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="d-inline-block" style="width: 100%; margin: 0 auto;">
+                <select class="form-control" [(ngModel)]="newEmployee.Rank" required #rank="ngModel">
+                    <option class="dropdown-item" [ngValue]="undefined" disabled selected>Select Rank</option>
+                    <option class="dropdown-item" *ngFor="let rank of myRanks" [ngValue]="rank">{{rank.Name}}</option>
+                </select>
+                <div *ngIf="rank.invalid" style="color:red;"> Rank required. </div> 
+            </div>               
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <button id="btnModal" type="button" class="btn btn-outline-dark" (click)="saveEmployee(newEmployee)">Save</button>
+            </div>
+            <div class="col-md-6 text-center">
+                <button id="btnModal" type="button" class="btn btn-outline-dark" (click)="modal.close()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</ng-template>
+
+<!-- SPREADSHEET -->
+<ng-template #contentSpreadSheet let-modal>
+    <div class="modal-header" style="background-color:#343a40; color: white;max-width: 1440px!important;">
+        <h4 class="modal-title blue" id="modal-basic-title">Employee Spread Sheet </h4>
+        <button type="button" class="close" aria-label="Close" style="color:white" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div (ngSubmit)="getSpreadSheet()"  class="row">
+            <div class="col-md-4 text-left">
+                <h4>Employee: {{spreadSheetEmployee.FirstName}} {{spreadSheetEmployee.LastName}}</h4>
+            </div>
+            <div class="col-md-2 text-left">
+                <div class ="row">
+                    <div class="col-md-2 mr-2"><label for="month" style="font-size: 18px;">Month</label></div>
+                    <div class="col-md-2"> 
+                        <input class="ml-2" id="month" type="text" placeholder="Month" [(ngModel)] = "newSpreadSheet.Month" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-left">
+                <div class ="row">
+                    <div class="col-md-2 ml-2"><label for="year" style="font-size: 18px;">Year</label></div>
+                    <div class="col-md-2"> 
+                        <input id="year" type="text" placeholder="Year" [(ngModel)] = "newSpreadSheet.Year"/>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="ml-3 btn btn-outline-info btn-sm" (click)="getSpreadSheet(spreadSheetEmployee, newSpreadSheet)">Get Statistics</button>
+            </div>
+        </div>
+        <div>
+            <table class="table">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>
+                            Day
+                        </th>
+                        <th>
+                            Hours
+                        </th>
+                        <th>
+                            Hours rest
+                        </th>
+                        <th>
+                            Worked hours
+                        </th>
+                        <th>
+                            Overtime
+                        </th>
+                        <th>
+                            Work Interval
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let day of newSpreadSheet.Day; let i=index" >
+                        <td [ngClass]="{redClass: day.OvertimeWorked}" style="text-align: center;">{{day.DayDate}}</td>   
+
+                        <td [ngClass]="{redClass: day.OvertimeWorked}">
+                            <div style="display: flex; justify-content: space-between;">
+                                <div *ngFor="let h of day.HoursActivityForUI">
+                                    <div [ngStyle]="{'background-color':h === 0 ? '#808080' : 'green' }">
+                                        <div style="color: transparent; width: 10px;">{{h}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td [ngClass]="{redClass: day.OvertimeWorked}" style="text-align: center;">{{day.HoursRest}}</td>
+                        <td [ngClass]="{redClass: day.OvertimeWorked}" style="text-align: center;">{{day.WorkedHours}}</td>
+                        <td [ngClass]="{greenClass: day.OvertimeWorked}" style="text-align: center;">{{day.Overtime}}</td>
+                        <td>
+                            <div class="row ml-6">
+                                <div>
+                                    <input name="startWork{{i}}" [id]="'startWork' + i" type="text" class="form-control" style="width:60px;" placeholder="Start" [ngModel]=workStart #startWork="ngModel">
+                                </div>
+                                <div>
+                                    <input name="endWork{{i}}" [id]="'endWork' + i" type="text" class="form-control" style="width:60px;" placeholder="End" [ngModel]=workEnd #endWork="ngModel">
+                                </div>
+                                <button class="btn btn-outline-success" (click)="saveWorkInterval(day, startWork.value, endWork.value, spreadSheetEmployee, contentSpreadSheet)">Save Interval</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <button type="button" class="btn btn-info" (click)="modal.dismiss('Cross click')" style="width:200px;">Close</button>
+        </div>
+    </div>
+  </ng-template>
+  
+<!-- DISPLAY ALL RANKS -->
+<section id="posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="py-2">
+                <button class="btn btn-lg btn-outline-warning" (click)="openAddEmployee(content)">Add new employee</button>
+            </div>
+            <div class="card">
+            <div class="card-header">
+                <h4>Employees</h4>
+            </div>
+            <table class="table">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th 
+                            [class.active]="order === 'FirstName'"
+                            (click)="setOrderFirstName('FirstName')"
+                            class="mdl-data-table__cell--non-numeric"> 
+                            <a>
+                                First Name 
+                            </a>
+                            <span [hidden]="reverse">▼</span>
+                            <span [hidden]="!reverse">▲</span>
+                        </th>
+                        <th 
+                            [class.active]="order2 === 'LastName'"
+                            (click)="setOrderLastName('LastName')"
+                            class="mdl-data-table__cell--non-numeric"> 
+                            <a>
+                                Last Name 
+                            </a>
+                            <span [hidden]="reverse">▼</span>
+                            <span [hidden]="!reverse">▲</span>
+                        </th>
+                        <th>
+                            Date Of Birth
+                        </th>
+                        <th>
+                            Gender
+                        </th>
+                        <th>
+                            Rank
+                        </th>
+                        <th>
+                            <a style="margin-left: 120px;">Actions</a>
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let employee of employees | orderBy: order:reverse:'case-insensitive'">
+                    <td>{{employee.FirstName }} </td>
+                    <td>{{employee.LastName }}</td>
+                    <td>{{employee.BirthDate }}</td>
+                    <td>{{employee.Gender }}</td>
+                    <td>{{employee.Rank.Name }}</td>
+                    <td>
+                        <button class="btn btn-info" style="width:120px;margin-left: 80px;" name="edit" title="Edit" (click)="openEditEmployee(employee, content)">Edit</button>
+                        <button class="btn btn-danger" style="width:120px;margin-left:10px;" name="delete" title="Delete" (click)="delete(employee)">Delete</button>
+                        <button class="btn btn-success" style="width:120px;margin-left:10px;" name="spreadSheet" (click)="openSpreadSheet(employee, contentSpreadSheet)">Spread Sheet</button>
+                    </td>
+                </tr>              
+                </tbody>
+            </table>
+            </div>
+        </div>       
+        </div>
+    </div>
+</section>

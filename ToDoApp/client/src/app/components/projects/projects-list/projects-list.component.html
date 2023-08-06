@@ -1,0 +1,37 @@
+<accordion [isAnimated]="true">
+    <accordion-group *ngFor="let item of projectsList;let i = index" [heading]="item.name"
+        [panelClass]="customAccordionStyles">
+        <p>{{item.name}}</p>
+        <p>{{item.description}}</p>
+
+        <button *ngIf="item.tasks.length > 0 && item.inactiveIcon" (click)="removeTasksFromProject(item.id)">Trash
+            selected</button>
+        <button *ngIf="item.tasks.length > 0 && item.trashIcon" (click)="deleteTasksFromProject(item.id)">Delete
+            selected</button>
+        <div *ngFor="let task of item.tasks;">
+            <div>
+                <input class="form-check-input" (change)="onChange(task.id, $event)" name="{{ task.name }}"
+                    type="checkbox" id="{{task.name}}">
+                <p>{{task.name}}</p>
+            </div>
+
+            <p>{{task.dateToComplete}}</p>
+            <div *ngFor="let comment of task.comments">
+                <p>{{comment.commentText}}</p>
+            </div>
+        </div>
+
+        <a class="float-left ml-2" *ngIf="!item.inactiveIcon && !item.trashIcon" (click)="editProject(item.id, i)"
+            style="cursor: pointer;">
+            <i class="bi bi-pencil fs-3" style="color:#E49D23"></i>
+        </a>
+        <a class="float-right ml-2" *ngIf="!item.inactiveIcon && !item.trashIcon" (click)="removeProject(item.id, i)"
+            style="cursor: pointer;">
+            <i class="bi bi-trash2 fs-3" style="color:#E2A6C3"></i>
+        </a>
+        <a class="float-right ml-2" *ngIf="!item.inactiveIcon && !item.trashIcon" (click)="markProjectAsComplete(item)"
+            style="cursor: pointer;">
+            <i class="bi bi-check2-all fs-3" style="color:#00C6B4"></i>
+        </a>
+    </accordion-group>
+</accordion>

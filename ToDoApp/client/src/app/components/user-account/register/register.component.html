@@ -1,0 +1,39 @@
+<div class="container" style="margin-top:200px;">
+  <div class="row center-inside-row text-center">
+    <h2 class="text-center mb-3">
+      Register
+    </h2>
+  </div>
+  <div class="row mb-6 center-inside-row mr-3">
+    <div class="col-sm-4 mb-6 ">
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <input formControlName="username" type="text" id="username" name="username" placeholder="username"
+          class="form-control mb-2">
+        <input formControlName="email" type="text" id="email" name="email" placeholder="email"
+          class="form-control mb-2">
+        <input formControlName="password" type="password" id="password" name="password" placeholder="password"
+          class="form-control mb-2">
+        <input formControlName="confirmPassword" type="password" id="password_confirm" name="password_confirm"
+          placeholder="confirm password" class="form-control mb-2">
+        <div *ngIf="registerForm.errors?.['notmatched'] && (confirmPassword?.touched || confirmPassword?.dirty)"
+          class="cross-validation-error-message alert alert-danger">
+          Passwords do not match
+        </div>
+        <!-- Button -->
+        <div class="controls">
+          <button class="btn btn-success">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="row center-inside-row mt-2">
+    <div class="col-sm-4 text-left mb-2">
+      <a [routerLink]="['/login']" class="underline-link" type="submit">Login</a>
+    </div>
+  </div>
+  <div class="row center-inside-row">
+    <div class="col-sm-4 mb2 text-left">
+      <a class="underline-link" type="submit">Recover Password</a>
+    </div>
+  </div>
+</div>

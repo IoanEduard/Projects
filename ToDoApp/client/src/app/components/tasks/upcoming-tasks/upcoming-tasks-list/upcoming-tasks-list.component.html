@@ -1,0 +1,89 @@
+<div class="form-check mt-4">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+        (click)="toggleCompletedTasksVisibility()">
+    <label class="form-check-label" for="flexCheckDefault">
+        <h5>
+            Tasks not completed
+        </h5>
+    </label>
+</div>
+<div class="input-group">
+    <div class="input-group-item">
+        <button class="btn btn-outline-primary" (click)="toggleAscendingDescendingOrderForTaskList()">Sort by
+            date</button>
+    </div>
+</div>
+<div class="list-group h-2" *ngFor="let item of groupedByDateUpcomingTasks;let groupIndex = index">
+    <div *ngIf="groupedByDateUpcomingTasks[groupIndex]?.tasks?.length > 0" class="list-group item">
+        <h5 class="mt-3" *ngIf="groupedByDateUpcomingTasks[groupIndex]?.tasks?.length > 0">
+            <p> {{item.date | date: 'yyyy-MM-dd'}} ({{item.count}}) </p>
+        </h5>
+
+        <ul class="list-group h-2"
+            *ngFor="let taskItem of item.tasks;let groupItemIndex = index; trackBy:trackByIndex;">
+            <li *ngIf="hideCompletedTasksElements(taskItem.completed, groupItemIndex, groupIndex)"
+                class="list-group-item" [ngClass]="{'list-group-item-danger':taskItem.label == 0,
+                            'list-group-item-warning': taskItem.label == 1, 
+                            'list-group-item-primary':taskItem.label == 2}" style="line-height: 20px;">
+                <p [ngClass]="taskItem.completed ? 'null' : 'strikethrough'">
+                    {{taskItem.name}}
+                </p>
+
+                <a class="float-right ml-2" (click)="removeTask(groupIndex, groupItemIndex, taskItem.id)"
+                    style="cursor: pointer;">
+                    <i class="bi bi-trash-fill fs-3" style="color:rgb(194, 40, 2)"></i>
+                </a>
+                <a class="float-right ml-2" (click)="displayCommentsComponent(groupItemIndex)" style="cursor: pointer;">
+                    <i class="bi bi-chat-square-text fs-3"></i>
+                </a>
+                <a class="float-right ml-2" (click)="enableEditTask(taskItem.id, groupIndex, groupItemIndex)"
+                    style="cursor: pointer;">
+                    <i class="bi bi-pencil fs-3" style="color:rgb(48, 12, 179)"></i>
+                </a>
+                <!-- 
+                    THIS OPTIONS MAKE AVAILABLE ONLY FOR CREATOR OF TASKS, AND HAVE A CHECKBOX TO DISPLAY SETTINGS OR NOT (SETTING SAVED IN COOKIES)
+                    DO IT AFTER IMPLEMENTING GARBAGE STUFF AND IDENTITY
+                -->
+
+                <a class="float-right ml-2" *ngIf="!item.inactiveIcon && !item.trashIcon"
+                    (click)="markTaskAsDone(taskItem.id, taskItem.completed, groupIndex, groupItemIndex)"
+                    style="cursor: pointer;">
+                    <i class="bi bi-check2-all fs-3" style="color:#00C6B4"></i>
+                </a>
+
+                <div class="row">
+                    <div class="col">
+                        <input *ngIf="searchProject" name="searchProject + {{groupIndex}} + {{groupItemIndex}}"
+                            [(ngModel)]="searchProject[groupIndex][groupItemIndex]"
+                            [ngModelOptions]="{standalone: true}" typeaheadOptionField="name"
+                            (ngModelChange)="searchProjectOnChange($event, groupIndex, groupItemIndex)"
+                            [typeahead]="suggestionProject$" [typeaheadAsync]="true" [adaptivePosition]="true"
+                            [typeaheadWaitMs]="1000" [typeaheadScrollable]="true"
+                            (typeaheadOnSelect)="onSelectProject(taskItem.id, $event)" class="form-control"
+                            placeholder="Assign to project">
+                        <div class="alert alert-danger" role="alert" *ngIf="errorMessageTasks">
+                            {{ errorMessageTasks }}
+                        </div>
+                    </div>
+                    <div class="col">
+                        <input name="searchUser + {{groupIndex}} + {{groupItemIndex}}"
+                            [(ngModel)]="searchUser[groupIndex][groupItemIndex]" [ngModelOptions]="{standalone: true}"
+                            typeaheadOptionField="name"
+                            (ngModelChange)="searchUserOnChange($event, groupIndex, groupItemIndex)"
+                            [typeahead]="suggestionUsers$" [typeaheadAsync]="true" [adaptivePosition]="true"
+                            [typeaheadWaitMs]="1000" [typeaheadScrollable]="true"
+                            (typeaheadOnSelect)="onSelectUser(taskItem.id, $event)" class="form-control"
+                            placeholder="Assign to user">
+                        <div class="alert alert-danger" role="alert" *ngIf="errorUserAssign">
+                            {{ errorUserAssign }}
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <app-upcoming-tasks-comments-list (closeTaskCommentSection)="displayCommentsComponent(groupItemIndex)"
+                id="{{'tasksComment' + groupItemIndex}}" *ngIf="showCommentComponent[groupItemIndex]"
+                [taskComments]="{tasks: taskItem, taskIndex: groupItemIndex}">
+            </app-upcoming-tasks-comments-list>
+        </ul>
+    </div>
+</div>

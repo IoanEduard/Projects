@@ -1,0 +1,72 @@
+F:\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.deps.json
+F:\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.dll
+F:\Projects\ToDoApp\Core\bin\Debug\net6.0\ref\Core.dll
+F:\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.pdb
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.dll
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\ref\Core.dll
+F:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.pdb
+E:\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.deps.json
+E:\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.dll
+E:\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.pdb
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.dll
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\refint\Core.dll
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.pdb
+E:\Projects\ToDoApp\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\Core\obj\Debug\net6.0\ref\Core.dll
+D:\Important\Projects\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.deps.json
+D:\Important\Projects\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.dll
+D:\Important\Projects\Projects\ToDoApp\Core\bin\Debug\net6.0\Core.pdb
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.dll
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\refint\Core.dll
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\Core.pdb
+D:\Important\Projects\Projects\ToDoApp\Core\obj\Debug\net6.0\ref\Core.dll

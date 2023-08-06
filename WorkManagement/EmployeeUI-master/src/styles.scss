@@ -1,0 +1,39 @@
+body {
+    background-color:#008080;
+}
+
+.btn-xlarge {
+    padding: 18px 38px;
+    font-size: 32px;
+    line-height: normal;
+    -webkit-border-radius: 16px;
+       -moz-border-radius: 16px;
+            border-radius: 16px;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+#btnGeneric{ 
+    width: 200px;
+}
+
+#btnGeneric:hover{ 
+    color: #343a40;
+}
+
+
+#modalInput{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#btnModal {
+    width: 180px;
+}
+
+#btnModal:hover {
+    color:white;
+}
+  

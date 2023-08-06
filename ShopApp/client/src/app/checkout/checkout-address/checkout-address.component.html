@@ -1,0 +1,94 @@
+<div class="mt-4" [formGroup]="checkoutForm">
+    <div class="d-flex justify-content-between align-items-center">
+        <h4>Shipping address</h4>
+        <button (click)="saveUserAddress()" [disabled]="!checkoutForm.get('addressForm')?.valid || 
+                !checkoutForm.get('addressForm')?.dirty" class="btn btn-outline-success mb-3">
+            Save as default address
+        </button>
+    </div>
+    <div class="row" formGroupName="addressForm">
+        <div class="form-label-group">
+            <label for="inputFirstName" class="sr-only">First Name</label>
+            <input formControlName="firstName" type="text" id="inputFirstName" class="form-control my-2"
+                autocomplete="off" placeholder="First name">
+        </div>
+
+        <span class="text-danger" *ngIf="firstName?.invalid
+            && checkoutForm.get('firstName')?.touched
+            && checkoutForm.get('firstName')?.errors!['required']">First name is required
+        </span>
+
+        <div class="form-label-group">
+            <label for="inputLastName" class="sr-only">Last Name</label>
+            <input formControlName="lastName" type="text" id="inputLastName" class="form-control my-2"
+                autocomplete="off" placeholder="Last Name">
+        </div>
+
+        <span class="text-danger" *ngIf="lastName?.invalid
+            && checkoutForm.get('lastName')?.touched
+            && checkoutForm.get('lastName')?.errors!['required']">Last name is required
+        </span>
+
+        <div class="form-label-group">
+            <label for="inputStreet" class="sr-only">Street Name</label>
+            <input formControlName="street" type="text" id="inputStreet" class="form-control my-2"
+                autocomplete="off" placeholder="Street">
+        </div>
+
+        <span class="text-danger" *ngIf="street?.invalid
+            && checkoutForm.get('street')?.touched
+            && checkoutForm.get('street')?.errors!['required']">Street is required
+        </span>
+
+        <div class="form-label-group">
+            <label for="inputCity" class="sr-only">City</label>
+            <input formControlName="city" type="text" id="inputStreet" class="form-control my-2"
+                autocomplete="off" placeholder="City">
+        </div>
+
+        <span class="text-danger" *ngIf="city?.invalid
+            && checkoutForm.get('city')?.touched
+            && checkoutForm.get('city')?.errors!['required']">City is required
+        </span>
+
+        <div class="form-label-group">
+            <label for="inputState" class="sr-only">State</label>
+            <input formControlName="state" type="text" id="inputState" class="form-control my-2"
+                autocomplete="off" placeholder="State">
+        </div>
+
+        <span class="text-danger" *ngIf="state?.invalid
+            && checkoutForm.get('state')?.touched
+            && checkoutForm.get('state')?.errors!['required']">State is required
+        </span>
+
+        <div class="form-label-group">
+            <label for="inputZipcode" class="sr-only">ZIP</label>
+            <input formControlName="zipCode" type="text" id="inputZipcode" class="form-control my-2"
+                autocomplete="off" placeholder="ZIP">
+        </div>
+
+        <span class="text-danger" *ngIf="zipCode?.invalid
+            && checkoutForm.get('zipCode')?.touched
+            && checkoutForm.get('zipCode')?.errors!['required']">ZIP is required
+        </span>
+    </div>
+
+    <!-- <div class="form-group col-6">
+
+        <div class="form-group col-6">
+            <app-text-input [label]="'State'" formControlName="state"></app-text-input>
+        </div>
+        <div class="form-group col-6">
+            <app-text-input [label]="'Zip Code'" formControlName="zipcode"></app-text-input>
+        </div> -->
+</div>
+
+<div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
+    <button class="btn btn-outline-primary" routerLink="/basket">
+        <i class="fa fa-angle-left"></i> Back to Basket
+    </button>
+    <button [disabled]="checkoutForm.get('addressForm')?.invalid" class="btn btn-primary" cdkStepperNext>
+        Go to Delivery <i class="fa fa-angle-right"></i>
+    </button>
+</div>

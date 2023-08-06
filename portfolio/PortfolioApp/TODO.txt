@@ -1,0 +1,34 @@
+Fix date time display
+Fix social links bottom margin
+Fix profile edit position button
+Fix on close reset view
+
+Add a warning on deleting anything from CV
+Change positions of experience and keep that order
+  -- using up and down arrows, don't display arrows on first and last position
+
+Profile:
+  add image and update image
+  CRUD other two sections.
+
+Fix all validations
+  - add messages to each error
+  - add toastr for successfuly saving the data
+Fix all the CSS
+Add a footer
+
+Github everything
+
+Add Authorization
+Add routing
+Add a contact me form, without email firebase function for now, just save it in the database and display in a page
+
+Hide unauthorized buttons
+Protect unauthorized components
+
+Add projects page
+	- having a list of articles
+
+Side things:
+Do a few tutorials with reactive forms, to have a diversity
+study interceptors, local storage

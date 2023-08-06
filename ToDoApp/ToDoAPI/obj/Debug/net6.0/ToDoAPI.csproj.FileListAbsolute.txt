@@ -1,0 +1,467 @@
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\appsettings.Development.json
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\appsettings.json
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\ToDoAPI.exe
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\ToDoAPI.deps.json
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\ToDoAPI.runtimeconfig.json
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\ToDoAPI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\ref\ToDoAPI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\ToDoAPI.pdb
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Humanizer.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Core.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Infrastructure.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Infrastructure.pdb
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\Core.pdb
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.csproj.AssemblyReference.cache
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.AssemblyInfoInputs.cache
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.AssemblyInfo.cs
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.csproj.CoreCompileInputs.cache
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\staticwebassets.build.json
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\staticwebassets.development.json
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\scopedcss\bundle\ToDoAPI.styles.css
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.csproj.CopyComplete
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.dll
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ref\ToDoAPI.dll
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.pdb
+F:\Projects\ToDoApp\ToDoApi\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\AutoMapper.dll
+F:\Projects\ToDoApp\ToDoApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Postman\ToDoApp.postman_collection.json
+F:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.Development.json
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.json
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Postman\ToDoApp.postman_collection.json
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.exe
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.deps.json
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.runtimeconfig.json
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.pdb
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Humanizer.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.pdb
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.pdb
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.AssemblyReference.cache
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfoInputs.cache
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfo.cs
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CoreCompileInputs.cache
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.build.json
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.development.json
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\scopedcss\bundle\ToDoAPI.styles.css
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CopyComplete
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.dll
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\refint\ToDoAPI.dll
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.pdb
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
+E:\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ref\ToDoAPI.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\appsettings.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Postman\ToDoApp.postman_collection.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\ToDoAPI.exe
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\ToDoAPI.deps.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\ToDoAPI.runtimeconfig.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\ToDoAPI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\ToDoAPI.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.csproj.AssemblyReference.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.AssemblyInfoInputs.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.AssemblyInfo.cs
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.csproj.CoreCompileInputs.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\scopedcss\bundle\ToDoAPI.styles.css
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.csproj.CopyComplete
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\refint\ToDoAPI.dll
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.pdb
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
+C:\Users\ioane\Desktop\Current Projects\ToDoApp\todoapi\obj\Debug\net6.0\ref\ToDoAPI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Postman\ToDoApp.postman_collection.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.exe
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.deps.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.runtimeconfig.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.AssemblyReference.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfoInputs.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfo.cs
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CoreCompileInputs.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\scopedcss\bundle\ToDoAPI.styles.css
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CopyComplete
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\refint\ToDoAPI.dll
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.pdb
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
+C:\Users\ioane\OneDrive\Desktop\Old BackupData\Current Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ref\ToDoAPI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Postman\ToDoApp.postman_collection.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.exe
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.deps.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.runtimeconfig.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.AssemblyReference.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfoInputs.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfo.cs
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CoreCompileInputs.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\scopedcss\bundle\ToDoAPI.styles.css
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CopyComplete
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\refint\ToDoAPI.dll
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.pdb
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
+C:\Users\ioane\Desktop\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ref\ToDoAPI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\appsettings.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Postman\ToDoApp.postman_collection.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.exe
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.deps.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.runtimeconfig.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\ToDoAPI.pdb
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Humanizer.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Infrastructure.pdb
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\bin\Debug\net6.0\Core.pdb
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.AssemblyReference.cache
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfoInputs.cache
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.AssemblyInfo.cs
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CoreCompileInputs.cache
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets\msbuild.ToDoAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.ToDoAPI.props
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDoAPI.props
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDoAPI.props
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\scopedcss\bundle\ToDoAPI.styles.css
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.csproj.CopyComplete
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\refint\ToDoAPI.dll
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.pdb
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ToDoAPI.genruntimeconfig.cache
+D:\Important\Projects\Projects\ToDoApp\ToDoAPI\obj\Debug\net6.0\ref\ToDoAPI.dll

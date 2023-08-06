@@ -1,0 +1,28 @@
+<div class="container" style="margin-top:200px;">
+    <div class="row center-inside-row text-center">
+        <h2 class="text-center mb-3">
+            Login
+        </h2>
+    </div>
+    <div class="row mb-6 center-inside-row mr-3">
+        <div class="col-sm-4 mb-6 ">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <input type="text" id="username" formControlName="username" class="form-control mb-2"
+                    placeholder="username">
+                <input type="password" id="password" formControlName="password" class="form-control"
+                    placeholder="password">
+                <button class="btn btn-primary mt-2 mb-2" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <div class="row center-inside-row">
+        <div class="col-sm-4 text-left mb-2">
+            <a [routerLink]="['/register']" class="underline-link" type="submit">Register</a>
+        </div>
+    </div>
+    <div class="row center-inside-row">
+        <div class="col-sm-4 mb2 text-left">
+            <a class="underline-link" type="submit">Recover Password</a>
+        </div>
+    </div>
+</div>

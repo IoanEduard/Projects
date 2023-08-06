@@ -1,0 +1,45 @@
+@import "~bootswatch/dist/united/variables";
+@import "~bootstrap/scss/bootstrap"; 
+@import "~bootswatch/dist/united/bootswatch";
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+/* DatePicker Container */
+// .ui-datepicker { position: relative; z-index: 10000; }
+
+.card.custom_accordion_styles, .card.custom_accordion_styles .card-header, .panel.custom_accordion_styles {
+    background-color: rgb(44,62,80);
+    color: rgb(255,255,255);
+    border-radius: unset;
+    border-color: #94DC80;
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body {
+    border-color: red;
+}
+
+accordion .panel {
+    border-color: red;
+    border-width: 0;
+}
+
+.main-text-color {
+    color:#9EB3B0;
+}
+
+.main-text-color:hover {
+    color:#F8FFF8;
+}
+
+.main-text-color-brand {
+    color:#F8FFF8;
+}
+
+.router-link-active {
+    color:#F8FFF8;
+}
+
+.center-inside-row {
+    justify-content: center
+
+}

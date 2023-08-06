@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row" style="justify-content:center">
+        <div class="col-sm-8">
+            <form class="" [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+
+                <div class="form-group">
+                    <label class="font-weight-bold" for="name">Name</label>
+                    <div class="input-group">
+                        <input type="text" id="name" formControlName="name" class="form-control"
+                            placeholder="Task Name: e.g boil eggs">
+                    </div>
+                    <span style="color:red" *ngIf="name?.errors?.['required'] && name?.touched">
+                        Task name is required
+                    </span>
+                    <span style="color:red" *ngIf="name?.errors?.['minlength'] && name?.touched">
+                        Minimum length is 3
+                    </span>
+
+                    <label class="font-weight-bold" for="name">Select priority</label>
+                    <div class="input-group">
+                        <select class="form-select" formControlName="label">
+                            <option value='' disabled selected>Priority</option>
+                            <option *ngFor="let name of keys" [value]="name"> {{priorityEnum[name]}} </option>
+                        </select>
+                    </div>
+
+                    <div class="row form-group">
+                        <label class="font-weight-bold">Select Date</label>
+                        <div class="col-xs-12 col-12 col-md-4 form-group mb-3">
+                            <input formControlName="dateToComplete" type="text" placeholder="Datepicker"
+                                class="form-control" bsDatepicker [bsValue]="selectedDate"
+                                [value]="selectedDate | date: 'yyyy-MM-dd'"
+                                [bsConfig]="{ isAnimated: true, dateInputFormat: 'YYYY-MM-DD' }"
+                                (ngModelChange)="selectDate(dateToComplete?.value)" [minDate]="minDate" [readonly]=true>
+                        </div>
+                    </div>
+                    <span style="color:red" *ngIf="backendErrorMessageDateToComplete">
+                        {{backendErrorMessageDateToComplete}}
+                    </span>
+                </div>
+                <button class="btn btn-outline-primary mr-2" *ngIf="!editMode" type="submit"
+                    [disabled]="!taskForm.valid">Add New
+                    Task</button>
+                <button class="btn btn-outline-success mr-2" *ngIf="editMode" type="button" (click)="editTask()">Edit
+                    Task</button>
+                <button class="btn btn-outline-warning mr-2" *ngIf="editMode" type="button"
+                    (click)="cancelEditMode()">Cancel</button>
+            </form>
+
+            <app-upcoming-tasks-list [taskToAddInList]="taskToAddInGrouppedList"
+                [taskToUpdateInList]="taskToUpdateInList" (taskEditEvent)="getObjectToEdit($event)">
+            </app-upcoming-tasks-list>
+        </div>
+    </div>
+</div>
